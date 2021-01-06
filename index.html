@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Shop</title>
+    <link type="text/css" rel="stylesheet" href="Resources/main.css" />
+    <script src="Resources/fontawesome-free-5.12.1-web/js/all.js"></script>
+  </head>
+
+  <body>
+    <!--preloader-->
+    <div class="preloader">
+      <img
+        src="Resources/Videos/Bean Eater-1s-200px.gif"
+        alt="Pre-loader"
+        class="preloader__item"
+      />
+    </div>
+    <!--end preloader-->
+
+    <!--header-->
+    <header id="header" class="header">
+      <!--banner-->
+      <div class="banner">
+        <h1 class="banner__title bell-fonts">Coffee Junkie</h1>
+        <div class="banner__icons">
+          <a href="#" class="banner__social-icon">
+            <i class="fab fa-facebook fa-fw"></i>
+          </a>
+          <a href="#" class="banner__social-icon">
+            <i class="fab fa-twitter fa-fw"></i>
+          </a>
+          <a href="#" class="banner__social-icon">
+            <i class="fab fa-instagram fa-fw"></i>
+          </a>
+          <a href="#" class="banner__social-icon">
+            <i class="fab fa-google-plus fa-fw"></i>
+          </a>
+        </div>
+      </div>
+      <!--end banner-->
+      <!--video-->
+      <article class="video__container ">
+        <video class="video__item" autoplay muted loop>
+          <source
+            src="Resources/Videos/Coffee Machine Dispensing Coffee.mp4"
+            type="video/mp4"
+          />
+          <source
+            src="Resources/Videos/Coffee Machine Dispensing Coffee_libtheora.ogv"
+            type="video/ogv"
+          />
+          <source
+            src="Resources/Videos/Coffee Machine Dispensing Coffee_VP8.webm"
+            type="video/webm"
+          />
+          Your Browser does not support video tag!!
+        </video>
+      </article>
+      <!--end video-->
+      <!--nav button-->
+      <div class="navBtn">
+        <i class="fas fa-bars"></i>
+      </div>
+      <!--end nav button-->
+      <!--nav-->
+      <nav class="nav">
+        <ul class="nav__links">
+          <li>
+            <a href="#" class="nav__single-link"
+              ><img src="Resources/Images/Logo.png" />
+            </a>
+          </li>
+          <li><a href="#header" class="nav__single-link">home</a></li>
+          <li><a href="#about" class="nav__single-link">about</a></li>
+          <li><a href="#drink" class="nav__single-link">free drink</a></li>
+          <li><a href="#work" class="nav__single-link">work</a></li>
+          <li><a href="#contact" class="nav__single-link">contact</a></li>
+        </ul>
+      </nav>
+      <!--end nav-->
+      <!--switch button-->
+      <div class="video__switch-container">
+        <div class="video__switch">
+          <span>on</span>
+          <span>off</span>
+          <div class="video__switch-btn"></div>
+        </div>
+      </div>
+      <!--end switch button-->
+    </header>
+    <!--end header-->
+    <!--about-->
+    <section class="about section-padding" id="about">
+      <div class="grid__container grid__container-medium-2">
+        <article class="about__container">
+          <!--first child-->
+          <div class="section-title">
+            <h1 class="section-title__name bell-fonts">our story</h1>
+            <div class="section-title__underline"></div>
+            <p class="section-title__text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi
+              quasi modi laudantium quia incidunt dignissimos a quae provident,
+              perferendis placeat tenetur culpa repellendus voluptates ea saepe.
+              Adipisci aspernatur eum voluptatum!
+            </p>
+          </div>
+          <!--second child-->
+          <div class="about__img">
+            <img
+              src="Resources/Images/About-1.jpg"
+              alt="about Image"
+              class="about__img-item"
+            />
+          </div>
+        </article>
+
+        <article class="about__container">
+          <!--first child-->
+          <div class="section-title">
+            <h1 class="section-title__name bell-fonts">what we do</h1>
+            <div class="section-title__underline"></div>
+            <p class="section-title__text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi
+              quasi modi laudantium quia incidunt dignissimos a quae provident,
+              perferendis placeat tenetur culpa repellendus voluptates ea saepe.
+              Adipisci aspernatur eum voluptatum!
+            </p>
+          </div>
+          <!--second child-->
+          <div class="about__img about__img-special">
+            <img
+              src="Resources/Images/About-2.jpg"
+              alt="about Image"
+              class="about__img-item"
+            />
+          </div>
+        </article>
+      </div>
+    </section>
+    <!--end about-->
+    <!--free drink-->
+    <section class="drink section-padding" id="drink">
+      <!--first child-->
+      <div class="grid__container">
+        <form class="drink__form">
+          <p class="drink__form-feedback">some text</p>
+          <h3 class="drink__form-title bell-fonts">to get free drinks</h3>
+          <div class="drink__form-input">
+            <input
+              type="text"
+              name=""
+              id=""
+              class="input-name"
+              maxlength="15"
+              placeholder="name"
+            />
+          </div>
+          <div class="drink__form-input">
+            <input
+              type="text"
+              name=""
+              id=""
+              class="input-lastname"
+              maxlength="15"
+              placeholder="last name"
+            />
+          </div>
+          <div class="drink__form-input">
+            <input
+              type="email"
+              name=""
+              id=""
+              class="input-email"
+              maxlength="15"
+              placeholder="email"
+            />
+          </div>
+          <input type="submit" value="sign up" class="input-submit" />
+        </form>
+      </div>
+      <!--second child-->
+      <article class="drink__card">
+        <h3 class="drink__card-title bell-fonts">lucky people:</h3>
+        <div class="drink__card-list">
+          <!--<div class="person">
+          <img src="Resources/Images/photograph-1.jpg" alt="person" class="person__thumbnail" />
+          <h4 class="person__name">Jane</h4>
+          <h4 class="person__lastname">Doe</h4>
+        </div>-->
+        </div>
+      </article>
+    </section>
+    <!--end free drink-->
+    <!--work-->
+    <section class="work section-padding" id="work">
+      <div class="section-title section-title__left">
+        <h1 class="section-title__name bell-fonts">our work</h1>
+        <div class="section-title__underline"></div>
+      </div>
+      <div class="work__container">
+        <article class="work__item item-1">
+          <img
+            src="Resources/Images/work-1.jpg"
+            alt="image"
+            class="work__item-img"
+          />
+          <a href="#" class="work__item-icon" data-id="1">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <article class="work__item item-2">
+          <img
+            src="Resources/Images/work-2.jpg"
+            alt="image"
+            class="work__item-img"
+          />
+          <a href="#" class="work__item-icon" data-id="2">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <article class="work__item item-3">
+          <img
+            src="Resources/Images/work-3.jpg"
+            alt="image"
+            class="work__item-img"
+          />
+          <a href="#" class="work__item-icon" data-id="3">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <article class="work__item item-4">
+          <img
+            src="Resources/Images/work-4.jpg"
+            alt="image"
+            class="work__item-img"
+          />
+          <a href="#" class="work__item-icon" data-id="4">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <article class="work__item item-5">
+          <img
+            src="Resources/Images/work-5.jpg"
+            alt="image"
+            class="work__item-img"
+          />
+          <a href="#" class="work__item-icon" data-id="5">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <article class="work__item item-6">
+          <img
+            src="Resources/Images/work-6.jpg"
+            alt="image"
+            class="work__item-img"
+          />
+          <a href="#" class="work__item-icon" data-id="6">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <article class="work__item item-7">
+          <img
+            src="Resources/Images/work-7.jpg"
+            alt="image"
+            class="work__item-img"
+          />
+          <a href="#" class="work__item-icon" data-id="7">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <article class="work__item item-8">
+          <img
+            src="Resources/Images/work-8.jpg"
+            alt="image"
+            class="work__item-img"
+          />
+          <a href="#" class="work__item-icon" data-id="8">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <article class="work__item item-9">
+          <img
+            src="Resources/Images/work-9.jpg"
+            alt="image"
+            class="work__item-img"
+          />
+          <a href="#" class="work__item-icon" data-id="9">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+      </div>
+      <!--modal-->
+      <div class="work__modal">
+        <div class="work__modal-item"></div>
+        <div class="work__modal-close">
+          <i class="fas fa-window-close"></i>
+        </div>
+      </div>
+      <!--end modal-->
+    </section>
+    <!--end work-->
+    <!--contact-->
+    <section class="contact section-padding" id="contact">
+      <div class="section-title section-title__left">
+        <h1 class="section-title__name bell-fonts">contact</h1>
+        <div class="section-title__underline"></div>
+      </div>
+      <div class="contact__container">
+        <iframe
+          class="contact__map"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15956.235840974983!2d37.0089922!3d-1.1178714!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x27eb19e5e45863be!2sJuja%20City%20Mall!5e0!3m2!1sen!2ske!4v1582102359499!5m2!1sen!2ske"
+          width="100%"
+          height="450"
+          frameborder="0"
+          style="border:0;"
+          allowfullscreen=""
+        ></iframe>
+        <div class="contact__info">
+          <div class="contact__item">
+            <div class="contact__item-icon">
+              <i class="fas fa-map-pin"></i>
+            </div>
+            <h2 class="contact__item-title">address</h2>
+            <p class="contact__item-text">
+              shop number ##
+            </p>
+            <p class="contact__item-text">
+              first floor, juja city mall
+            </p>
+          </div>
+          <div class="contact__item">
+            <div class="contact__item-icon">
+              <i class="fas fa-headphones-alt"></i>
+            </div>
+            <h2 class="contact__item-title">support</h2>
+            <p class="contact__item-text">
+              <span><i class="fas fa-phone"></i></span> +254 712345687
+            </p>
+            <p class="contact__item-text">
+              <span><i class="fas fa-envelope"></i></span> email@email.com
+            </p>
+          </div>
+          <div class="contact__item">
+            <div class="contact__item-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <h2 class="contact__item-title">work time</h2>
+            <p class="contact__item-text">
+              monday - saturday: 9am - 9pm
+            </p>
+            <p class="contact__item-text">
+              sunday: 9am - 9pm
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end contact-->
+
+    <script src="Resources/app.js"></script>
+  </body>
+</html>
